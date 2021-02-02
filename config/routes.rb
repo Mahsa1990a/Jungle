@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
 
-  root to: 'products#index'
+  # get '/' => 'products#index'   OR :
+  root to: 'products#index'    # root => home page , 'products#index' => products is controller & index is action
 
   resources :products, only: [:index, :show]
   resources :categories, only: [:show]
