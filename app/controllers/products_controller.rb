@@ -1,6 +1,6 @@
 class ProductsController < ApplicationController
 
-  def index
+  def index   # index is an action
     # use MODEL <= Controller uses Model to fetch or create data
     @products = Product.all.order(created_at: :desc)
 
