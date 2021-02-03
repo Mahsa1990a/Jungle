@@ -3,6 +3,9 @@ Rails.application.routes.draw do
   # get '/' => 'products#index'   OR :
   root to: 'products#index'    # root => home page , 'products#index' => products is controller & index is action
 
+  get '/about' => 'about#show'
+  # match 'about' => 'about#show', :via => :get
+
   resources :products, only: [:index, :show]
   resources :categories, only: [:show]
 
