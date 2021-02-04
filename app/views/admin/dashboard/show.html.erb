@@ -1,9 +1,6 @@
 <section class="admin-dashboard">	
   <header>
-    <h1>
-      <span class="title">Admin Dashboard: </span>
-      <span class="summary"><u>Summary of Jungle</u></span>
-    </h1>
+  <h1>Admin &raquo; Dashboard</h1>
   </header>
 
   <div class="stats">
@@ -14,8 +11,8 @@
 
     <div class="stat-card">
       <h3><%= @categories_count %></h3>
-      
       <h4>Total Categories</h4>
+      <h4><%=link_to "Total Categories", [:admin, :categories] %></h4>
     </div>
   </div>
 
