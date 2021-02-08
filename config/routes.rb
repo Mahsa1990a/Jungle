@@ -29,6 +29,9 @@ Rails.application.routes.draw do
     root to: 'dashboard#show'
     resources :products, except: [:edit, :update, :show]
     resources :categories, except: [:edit, :update, :show]
+
+    # resources :sales, only: [:index] <= will create a page admin/sales(controller) with action index(we dont want 7 actions for now)
+
   end
 
   # The priority is based upon order of creation: first created -> highest priority.
