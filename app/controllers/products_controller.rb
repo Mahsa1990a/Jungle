@@ -1,7 +1,7 @@
 class ProductsController < ApplicationController
 
   # Add a before_filter to any controller that you want to secure.
-  before_filter :authorize
+  # before_filter :authorize
 
   def index   # index is an action
     # use MODEL <= Controller uses Model to fetch or create data

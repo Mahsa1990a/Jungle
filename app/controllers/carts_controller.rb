@@ -1,7 +1,7 @@
 class CartsController < ApplicationController
 
   # Add a before_filter to any controller that you want to secure.
-  before_filter :authorize
+  # before_filter :authorize
 
   def show
   end
