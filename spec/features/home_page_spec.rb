@@ -26,7 +26,7 @@ RSpec.feature "Visitor navigates to home page", type: :feature, js: true do
     save_screenshot 'test1.png'
 
     # we set our first expectation of content we expect the user to see on the page
-    expect(page).to have_css 'article.product'
+    expect(page).to have_css 'article.product', count: 10
   end
 
 end
