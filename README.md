@@ -7,13 +7,13 @@ Built with Rails 4.2, Jungle brings you an e-commerce experience like no other, 
 ## Final Product :
 
 ### Homepage
-!["Home page"]()
+!["Home page"](https://github.com/Mahsa1990a/Jungle/blob/master/public/img/home_page.png?raw=true)
 
 ### My Cart
-!["My Cart"]()
+!["My Cart"](https://github.com/Mahsa1990a/Jungle/blob/master/public/img/myCart.png?raw=true)
 
 ### Admin
-!["Admin"]()
+!["Admin"](https://github.com/Mahsa1990a/Jungle/blob/master/public/img/admin_allProducts.png?raw=true)
 
 ## Technology
 
