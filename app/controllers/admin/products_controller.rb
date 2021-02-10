@@ -1,7 +1,7 @@
 class Admin::ProductsController < ApplicationController
 
   # Add a before_filter to any controller that you want to secure.
-  before_filter :authorize
+  # before_filter :authorize
 
   http_basic_authenticate_with name: ENV['ADMIN_USERNAME'].to_s, password: ENV['ADMIN_PASSWORD'].to_s, except: :index
 
